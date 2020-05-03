@@ -1,0 +1,42 @@
+footer {
+	background: linear-gradient(270deg, #8226b6, #191970);
+	background-size: 400% 400%;
+    bottom: 0;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 54px;
+	padding-top: 100px;
+
+	-webkit-animation: AwesomeGradient 30s ease infinite;
+	-moz-animation: AwesomeGradient 30s ease infinite;
+	animation: AwesomeGradient 30s ease infinite;
+
+	.footer-copyright {
+		overflow: hidden;
+		font-size: .9rem;
+		line-height: 1.5;
+		color: rgba(255,255,255,.6);
+	}
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	@-webkit-keyframes AwesomeGradient {
+		0%{background-position:0% 51%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 51%}
+	}
+	@-moz-keyframes AwesomeGradient {
+		0%{background-position:0% 51%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 51%}
+	}
+	@keyframes AwesomeGradient {
+		0%{background-position:0% 51%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 51%}
+	}
+}

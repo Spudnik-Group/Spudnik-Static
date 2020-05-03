@@ -1,0 +1,101 @@
+.full-bg-img {
+  color: #fff;
+  align-items: center;
+  min-height: 24em;
+  justify-content: center;
+  margin-top: -64px;
+  position: relative;
+  height: 750px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 750px;
+    background-position: bottom;
+    background-image: url('/assets/home/spacex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+	.content-wrap {
+		max-width: 45%;
+    text-align: center;
+
+		h1 {
+			font-size: 4.5rem;
+			line-height: 1.2;
+		}
+		.lead {
+			font-size: 1.25rem;
+    }
+    .discord-button {
+      background-color: #7289da;
+      margin-right: 10px;
+      color: #fff;
+
+      img {
+        height: 20px;
+      }
+    }
+	}
+}
+
+.why {
+  color: #fff;
+  height: 750px;
+  background-color: #202225;
+
+  .why-wrap {
+    padding: 50px 35px 35px 35px;
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .full-bg-img {
+      height:1000px;
+
+      .content-wrap {
+        max-width: 90%;
+      }
+  }
+}
+
+@media (min-width: 800px) and (max-width: 959px) {
+  .full-bg-img {
+      height:650px;
+
+      .content-wrap {
+        max-width: 75%;
+      }
+  }
+}
+
+h1 {
+  font-family: "Soviet Program";
+}
+
+@font-face {
+  font-family: "Soviet Program";
+  src: url('/assets/fonts/soviet_program/SovietProgram.ttf');
+}
+@font-face {
+  font-family: "Soviet Program Bold";
+  src: url('/assets/fonts/soviet_program/SovietProgram-Bold.ttf');
+}
+@font-face {
+  font-family: "Soviet Program BoldItalic";
+  src: url('/assets/fonts/soviet_program/SovietProgram-BoldItalic.ttf');
+}
+@font-face {
+  font-family: "Soviet Program Italic";
+  src: url('/assets/fonts/soviet_program/SovietProgram-Italic.ttf');
+}
