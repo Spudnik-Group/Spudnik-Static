@@ -1,0 +1,14 @@
+{
+  "baseBranches": [
+    "master"
+  ],
+  "extends": [
+    "config:base",
+    ":label(devops)",
+    ":automergeAll",
+    ":automergeBranch"
+  ],
+  "supportPolicy": [
+    "lts"
+  ]
+}
