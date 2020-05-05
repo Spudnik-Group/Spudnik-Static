@@ -3,7 +3,6 @@
 	  <mat-icon>menu</mat-icon>
 	</button>
 	<a mat-button class="toolbar-brand" href="/">Spudnik</a>
-	<a mat-button routerLink="/features" routerLinkActive="active" fxShow="true" fxHide.lt-md>Features</a>
 	<button mat-button [matMenuTriggerFor]="docsMenu" fxShow="true" fxHide.lt-md>Documentation <mat-icon>arrow_drop_down</mat-icon></button>
 	<span class="navbar-filler"></span>
 	<a mat-icon-button href="https://twitter.com/Spudnik_Bot" target="_blank">
@@ -11,10 +10,6 @@
 	</a>
 	<a mat-icon-button href="https://github.com/Spudnik-Group/Spudnik" target="_blank">
 		<i class="fab fa-github fa-lg"></i>
-	</a>
-	<span class="vert-break" fxShow="true" fxHide.lt-md>|</span>
-	<a mat-button style="margin-top: 5px;" fxShow="true" fxHide.lt-md>
-		Log In
 	</a>
 </mat-toolbar>
 
@@ -25,11 +20,6 @@
 </mat-menu>
 
 <mat-menu #mobileMenu="matMenu">
-	<button mat-menu-item routerLink="/features" routerLinkActive="active">Features</button>
 	<a mat-menu-item href="https://docs.spudnik.io/getting-started">Getting Started</a>
 	<a mat-menu-item href="https://docs.spudnik.io/commands">Commands</a>
-	<mat-divider></mat-divider>
-	<button mat-menu-item style="margin-top: 5px;">
-		Log In
-	</button>
 </mat-menu>
