@@ -1,11 +1,7 @@
 .full-bg-img {
   color: #fff;
-  align-items: center;
   min-height: 24em;
-  justify-content: center;
-  margin-top: -64px;
-  position: relative;
-  height: 750px;
+  height: 745px;
 
   &::after {
     content: '';
@@ -22,6 +18,8 @@
     background-size: cover;
   }
 	.content-wrap {
+  justify-content: center;
+  align-items: center;
 		max-width: 45%;
     text-align: center;
 
@@ -81,21 +79,4 @@
 
 h1 {
   font-family: "Soviet Program";
-}
-
-@font-face {
-  font-family: "Soviet Program";
-  src: url('/assets/fonts/soviet_program/SovietProgram.ttf');
-}
-@font-face {
-  font-family: "Soviet Program Bold";
-  src: url('/assets/fonts/soviet_program/SovietProgram-Bold.ttf');
-}
-@font-face {
-  font-family: "Soviet Program BoldItalic";
-  src: url('/assets/fonts/soviet_program/SovietProgram-BoldItalic.ttf');
-}
-@font-face {
-  font-family: "Soviet Program Italic";
-  src: url('/assets/fonts/soviet_program/SovietProgram-Italic.ttf');
 }
